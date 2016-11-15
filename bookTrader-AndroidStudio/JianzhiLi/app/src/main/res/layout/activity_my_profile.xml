@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MyProfile">
+
+//Create by Jianzhi Li 06/02/2016
+  There has two problems, one is the once click the submit button the app will crash
+    The second problem is those account information user entered should going to the user account entity
+    and update those information to their accounts. But I did not figure out that yet.
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name:"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:id="@+id/txtPersonName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/txtPhoneNum"
+        android:hint="Enter your phone number"
+        android:text="Phone_number:" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:hint="Enter your email address"
+        android:id="@+id/txtEmailAddress"
+        android:text="Email:" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSchoolName"
+        android:hint="Enter your school name"
+        android:text="College:" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="50dp"
+            android:padding="20dp"
+            android:text="submit"
+            android:background="@android:color/holo_orange_light"
+            android:textColor="@android:color/black"
+            android:onClick="hitServer"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+

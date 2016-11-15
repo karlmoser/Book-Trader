@@ -1,0 +1,11 @@
+<!-- Indices written at Thu, 2 Jun 2016 09:40:16 PDT -->
+
+<datastore-indexes>
+
+    <!-- Used 2 times in query history -->
+    <datastore-index kind="User" ancestor="false" source="auto">
+        <property name="session" direction="asc"/>
+        <property name="expires" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>

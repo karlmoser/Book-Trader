@@ -1,0 +1,10 @@
+bookTrader/JianzhiLi/*.iml
+bookTrader/JianzhiLi/.gradle
+bookTrader/JianzhiLi/local.properties
+bookTrader/JianzhiLi/.idea/workspace.xml
+bookTrader/JianzhiLi/.idea/libraries
+bookTrader/JianzhiLi/.DS_Store
+bookTrader/JianzhiLi/build
+bookTrader/JianzhiLi/captures
+CloudBookTrader/war/WEB-INF/appengine-generated/
+CloudBookTrader/war/WEB-INF/classes/

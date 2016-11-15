@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BookTrader</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my_profile">My Profile</string>
+    <string name="title_buy_book">Buy Book</string>
+    <string name="title_sell_book">Sell Book</string>
+</resources>

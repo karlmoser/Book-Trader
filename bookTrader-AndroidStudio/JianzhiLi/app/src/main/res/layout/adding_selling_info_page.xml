@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="com.example.team5.jianzhili.AddSellingInfoActivity"
+    android:textColor="#000000"
+    android:background="#ffffff"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="0"
+        android:stretchColumns="1">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/lblTitle"
+                android:layout_width="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="8dp"
+                android:text="Title:"
+                android:textColor="#00008B" />
+
+            <EditText
+                android:id="@+id/sellingBookName"
+                android:layout_width="fill_parent"
+                android:gravity="left"
+                android:inputType="text"
+                android:hint="Book name"
+                android:textColor="#00008B" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/lblAuthor"
+                android:layout_width="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="8dp"
+                android:text="Author:"
+                android:textColor="#00008B" />
+
+            <EditText
+                android:id="@+id/sellingBookAuthor"
+                android:layout_width="fill_parent"
+                android:gravity="left"
+                android:hint="Author name"
+                android:inputType="textPersonName"
+                android:textColor="#00008B" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/lblEdition"
+                android:layout_width="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="8dp"
+                android:text="Edition:"
+                android:textColor="#00008B" />
+
+            <EditText
+                android:id="@+id/sellingBookEdition"
+                android:layout_width="fill_parent"
+                android:gravity="left"
+                android:inputType ="number"
+                android:digits="0123456789"
+                android:hint="Edition of the book"
+                android:textColor="#00008B" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/lblContact"
+                android:layout_width="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="8dp"
+                android:text="Contact Info:"
+                android:textColor="#00008B" />
+
+            <EditText
+                android:id="@+id/sellingContactInfo"
+                android:layout_width="fill_parent"
+                android:gravity="left"
+                android:inputType="text"
+                android:hint="Phone number or Email address"
+                android:textColor="#00008B" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/lblCollege"
+                android:layout_width="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="8dp"
+                android:text="College:"
+                android:textColor="#00008B" />
+
+            <EditText
+                android:id="@+id/sellingCollege"
+                android:layout_width="fill_parent"
+                android:gravity="left"
+                android:hint="Which college you want to sell"
+                android:inputType="text|textNoSuggestions|textVisiblePassword"
+                android:textColor="#00008B" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/lblClass"
+                android:layout_width="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="8dp"
+                android:text="Class:"
+                android:textColor="#00008B" />
+
+            <EditText
+                android:id="@+id/sellingClass"
+                android:layout_width="fill_parent"
+                android:gravity="left"
+                android:hint="The class uses this book"
+                android:inputType="text"
+                android:textColor="#00008B" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/lblPrice"
+                android:layout_width="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="8dp"
+                android:text="Price:"
+                android:textColor="#00008B" />
+
+            <EditText
+                android:id="@+id/sellingPrice"
+                android:layout_width="fill_parent"
+                android:gravity="left"
+                android:inputType="numberDecimal"
+                android:hint="The price you want to sell"
+                android:textColor="#00008B" />
+        </TableRow>
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:onClick="doSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="Submit"
+            android:textColor="#ffffff"
+            android:background="#00008B" />
+
+    </TableLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
