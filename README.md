@@ -5,5 +5,23 @@ Unfinished Android application for CS 496 Mobile/Cloud Software Development at O
 
 ## Screenshots
 
-### Home page
+### Login screen
 ![ScreenShot](https://raw.github.com/karlmoser/Book-Trader/master/screenshots/1.PNG)
+
+### Home screen
+![ScreenShot](https://raw.github.com/karlmoser/Book-Trader/master/screenshots/2.PNG)
+
+### Sell Book screen
+![ScreenShot](https://raw.github.com/karlmoser/Book-Trader/master/screenshots/3.PNG)
+
+### Buy Book screen
+![ScreenShot](https://raw.github.com/karlmoser/Book-Trader/master/screenshots/4.PNG)
+
+### Book Details screen
+![ScreenShot](https://raw.github.com/karlmoser/Book-Trader/master/screenshots/5.PNG)
+
+### Information stored and loaded from GAE Datastore
+![ScreenShot](https://raw.github.com/karlmoser/Book-Trader/master/screenshots/6.PNG)
+
+![ScreenShot](https://raw.github.com/karlmoser/Book-Trader/master/screenshots/7.PNG)
+
